@@ -44,7 +44,7 @@ NODE *genrate_list(){
 
    for(int i = 0; i < 200; i++){
         int num = rand() % 50;
-        head = insert_end(head, num);
+        head = insert_end(head, num); //note for myself that head address wasnt adressed this time
    }
    return head;
 }
